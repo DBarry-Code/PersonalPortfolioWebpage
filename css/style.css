@@ -1,0 +1,85 @@
+.about-section {
+  background: linear-gradient(to right, rgba(153, 38, 240, 0.95), rgba(209, 34, 227, 0.95));
+  padding: 10rem 0 0 0;
+  width: 100%;
+  height: 100vh;
+}
+
+.display-2 {
+  margin-bottom: 1rem;
+  text-transform: capitalize;
+  font-family: "Poppins", sans-serif;
+}
+.display-2--intro {
+  display: inline-block;
+  font-weight: 400;
+  font-family: "Marck Script", cursive;
+}
+.display-2--discription {
+  font-size: 1rem;
+  display: block;
+  margin-top: 1.2rem;
+  text-transform: none;
+}
+
+/* @include media-breakpoint-up(lg) {
+    font-size: 1.4rem;
+    display: inline-block;
+  }
+  */
+.image-box {
+  width: 100%;
+  height: 100%;
+}
+
+.image-svg {
+  width: 100%;
+  height: 100%;
+}
+
+.menu {
+  background: linear-gradient(to right, rgba(153, 38, 240, 0.95), rgba(209, 34, 227, 0.95));
+}
+
+.brand {
+  color: #fff;
+  font-family: "Marck Script", cursive;
+  font-weight: 400;
+  font-size: 30px;
+}
+
+li {
+  padding: 0 0.7rem;
+}
+li a {
+  font-family: "Poppins", sans-serif;
+  color: #fff !important;
+  text-transform: capitalize;
+  font-weight: 600;
+  font-size: 18px;
+}
+li a:hover {
+  text-decoration: underline;
+}
+
+.button-color {
+  color: #fff;
+  background-color: #9926f0;
+}
+.button-color:hover {
+  background-color: #d122e3;
+}
+
+.contact-details {
+  color: #fff;
+  font-family: "Poppins", sans-serif;
+  font-size: 1.5rem;
+  text-shadow: 1px 1px 1px #1f1f1f;
+  transition: transform 0.3s ease-out;
+}
+.contact-details:hover {
+  transform: translateY(8px);
+  color: #000;
+}
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,29 @@
+@use "../components/custom" as *;
+@use "../components/mixins" as *;
+
+.menu {
+  @include gradient;
+}
+
+.brand {
+  color: $white;
+  font-family: "Marck Script", cursive;
+  font-weight: 400;
+  font-size: 30px;
+}
+
+li {
+  padding: 0 0.7rem;
+
+  a {
+    font-family: "Poppins", sans-serif;
+    color: $white !important;
+    text-transform: capitalize;
+    font-weight: 600;
+    font-size: 18px;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
